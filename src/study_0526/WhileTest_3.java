@@ -18,10 +18,6 @@ public class WhileTest_3 {
  4. 1000이상이면 n의 값과 1에서 n까지의 합을 출력한다. 
  
  
- 
- 
- 
-
  int n = 0;
  int sum =0;
  
