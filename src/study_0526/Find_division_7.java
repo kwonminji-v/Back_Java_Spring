@@ -1,6 +1,6 @@
 package study_0526;
 
-public class Find_division_7 {
+//public class Find_division_7 {
 
 /*
  자연수 143이 소수인지 판별하라 
@@ -14,27 +14,27 @@ public class Find_division_7 {
   
  */
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		int num = 143;
-		int count = 0;   //약수의 개수를 저장하는 변수
-		
-		for ( int i = 1; i <= num ; i++) {
-			if(               ) {
-				
-				System.out.println("약수 : " + i);
-				
-			}
-		}
-		
-
-		System.out.println(num + "의 약수의 개수 : " + count);
-		
-		if(count == 2)
-			System.out.println(num + "은 소수입니다.");
-		else
-			System.out.println(num + "은 합성수이다.");
-	}
-
-}
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//		
+//		int num = 143;
+//		int count = 0;   //약수의 개수를 저장하는 변수
+//		
+//		for ( int i = 1; i <= num ; i++) {
+//			if(               ) {
+//				
+//				System.out.println("약수 : " + i);
+//				
+//			}
+//		}
+//		
+//
+//		System.out.println(num + "의 약수의 개수 : " + count);
+//		
+//		if(count == 2)
+//			System.out.println(num + "은 소수입니다.");
+//		else
+//			System.out.println(num + "은 합성수이다.");
+//	}
+//
+//}
