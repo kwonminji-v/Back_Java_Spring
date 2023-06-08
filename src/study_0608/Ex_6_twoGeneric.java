@@ -1,6 +1,5 @@
 package study_0608;
 
-import javax.xml.crypto.dsig.keyinfo.KeyValue;
 
 public class Ex_6_twoGeneric {
 
