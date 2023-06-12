@@ -1,6 +1,9 @@
 package study_0612;
 
 public class Ex_3_Generics사용이유_memo {
+	public static void main(String[] args) {
+		
+	}
 
 }
 /*
@@ -44,4 +47,5 @@ public class GenericBox<T> {
 			}
 			
 인터페이스도 클래스처럼 제네릭으로 설정해두고 활용할 수 있다.
+	
 */
