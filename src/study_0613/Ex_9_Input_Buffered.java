@@ -16,7 +16,7 @@ public class Ex_9_Input_Buffered {
 		int count = 1;  // 몇 번 입력했는지를 카운트하는 변수
 		String scoreData = " ";
 		String s = null;
-		File file = new File("D:/backend/Java/JavaStudy/src", "scoreData.txt");
+		File file = new File("scoreData.txt");
 		
 		try {
 			BufferedReader in = new BufferedReader(new InputStreamReader(System.in));

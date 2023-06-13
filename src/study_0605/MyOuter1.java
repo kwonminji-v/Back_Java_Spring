@@ -6,7 +6,7 @@ package study_0605;
  */
 
 public class MyOuter1 {
-		private String name;
+		private static String name;
 		private int age;
 		public MyOuter1 ( String name, int age) {
 			this.name = name;
@@ -25,7 +25,7 @@ public class MyOuter1 {
 			}
 			public String  getUserInfo() {
 				//  return name + "" + age;  //에러 외부 클래스의 인스턴스 변수 접근
-				return "주소는 : " + address + ", 전화번호 : " + tel;
+				return "주소는 : " + address + ", 이름은 =  " + name;
 			}
 		}
 }

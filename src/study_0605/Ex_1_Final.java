@@ -86,6 +86,11 @@ class SamsungPhone implements PhoneInterface {
 	public void flash() {
 		System.out.println("전화에 불 켜짐");
 	} // 추상 클래스와 인터페이스는 객체 생성을 할 수 없다.
+	@Override
+	public void sendCall() {
+		// TODO Auto-generated method stub
+		
+	}
 }
 
 public class Ex_1_Final {
