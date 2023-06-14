@@ -58,4 +58,21 @@ public class Ex_1_awt_Jframe extends JFrame {
 (1) 최상위 컨테이너 : 다른 컨테이너에 속하지 않고 독립적으로 출력 가능한 컨테이너 (JFrame, JApplet, JDialog, JWindow)
 (2) 컨테이너 : 다른 컨테이너에 포함될 수 있고, 컴포넌트를 포함할 수 있다 (JPanel 등)
 (3) 컴포넌트 : 컨테이너에 포함되어야 화면에 출력 가능 (JButton, JLabel, JTextField 등)
+
+이벤트 리스너란? 
+이벤트를 처리하는 코드, 클래스로 작성 (ex. 엿듣고 있는 것)
+이벤트 처리를 위해서는 이벤트 발생시킬 컴포넌트에 이벤트 리스너를 연결해야한다.
+JDK에서 이벤트 리스너 작성을 위한 인터페이스 (interface) 제공
+ - 개발자가 리스너 인터페이스의 추상 메서드 구현, 이벤트가 발생하면 자바 플랫폼은 리스너 인터페이스의 추상 메서드 호출
+ 
+ ex ) ActionListener 인터페이스
+ interface ActionListener {  아래 메서드를 개발자가 구현해야 한다.
+ public void actionPerformed(ActionEvent e);   -> Action 이벤트 발생 시 호출된다.
+ 
+ ex) MouseListener 인터페이스
+ interface MouserListener { 아래의 5개의 메서드를 개발자가 구현해야 함
+ 
+ container c = getContentPane()
+ 스윙에서는 컨텐트팬 (content pane)에만 컴포넌트를 부착할 수 있다.
+ 즉 , container c = getContentPane() 를 활용하면 JFrame의 컨테이너 들의 속성(메소드)를 여러 개 추가할 수 있다.
  */
