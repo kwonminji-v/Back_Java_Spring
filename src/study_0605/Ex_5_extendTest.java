@@ -10,9 +10,9 @@ public class Ex_5_extendTest {
 		
 		System.out.println("Car.SAFE_SPEED = " + Ex_2_extends_Car.SAFE_SPEED);
 		
-		c.speedUp();
-		c.speedDown();
-		c.stop();
+		t.speedUp();
+		t.speedDown();
+		t.stop();
 		
 		System.out.println();
 		s.speedUp();
