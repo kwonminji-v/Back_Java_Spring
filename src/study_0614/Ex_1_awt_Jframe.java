@@ -1,7 +1,5 @@
 package study_0614;
 
-
-
 import java.awt.Color;
 //버튼 생성, 배경 색상과 , 배치관리자 즉 ) layout 순서
 //버튼 만드는 방법 2가지
@@ -11,8 +9,8 @@ import java.awt.FlowLayout;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 
-public class Ex_1_awt_jframe extends JFrame {
-			public void Ex_1_awt_Jframe() {
+public class Ex_1_awt_Jframe extends JFrame {
+			public Ex_1_awt_Jframe() {
 				//이름과 JFrame 창 닫기 시 프로그램이 종료되는 설정 입력
 				setTitle("ContentPane과 JFrame");
 				setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -50,7 +48,7 @@ public class Ex_1_awt_jframe extends JFrame {
 			
 
 	public static void main(String[] args) {
-				new Ex_1_awt_jframe();
+				new Ex_1_awt_Jframe();
 	}
 	//Gui awt swing 이벤트
 }
@@ -93,4 +91,18 @@ JDK에서 이벤트 리스너 작성을 위한 인터페이스 (interface) 제�
   - 프레임이 보이지 않게 되지만 응용 프로그램이 종료한 것이 아님
   - 키보드나 마우스 입력을 받지 못함
   - 다시 setVisible(true)를 호추하면 보이게 되고 이전처럼 작동함
+  
+  as
+  df
+  asf
+  asf
+  asf
+  as
+  sf
+  as
+  fas
+  f
+  asf
  */
+
+
