@@ -91,4 +91,18 @@ JDK에서 이벤트 리스너 작성을 위한 인터페이스 (interface) 제�
   - 프레임이 보이지 않게 되지만 응용 프로그램이 종료한 것이 아님
   - 키보드나 마우스 입력을 받지 못함
   - 다시 setVisible(true)를 호추하면 보이게 되고 이전처럼 작동함
+  
+  as
+  df
+  asf
+  asf
+  asf
+  as
+  sf
+  as
+  fas
+  f
+  asf
  */
+
+
