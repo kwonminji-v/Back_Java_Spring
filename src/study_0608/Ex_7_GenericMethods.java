@@ -19,7 +19,6 @@ public class Ex_7_GenericMethods {
 	}
 	
 	
-	
 	public static void main(String[] args) {
 		
 

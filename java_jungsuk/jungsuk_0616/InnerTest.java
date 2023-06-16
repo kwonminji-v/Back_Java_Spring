@@ -1,4 +1,4 @@
-package java_jungsuk;
+package jungsuk_0616;
 
 
 
@@ -26,7 +26,8 @@ public class InnerTest {
 		// TODO Auto-generated method stub
 //		B b = new B();
 //		b.method();  -> 내부클래스화 됨과 동시에 class B는 class A의 멤버처럼 다뤄지게 된다.
-		A a = new A();
+			A a = new A();
+			a.b.method();
 	}
 
 }

@@ -14,7 +14,7 @@ public class Ex_12_ThrowTest {
 			System.out.println("World");
 	}
 
-}
+} 
 /*
 예외(Exception) : 연산 오류, 포맷 오류 등 상황에 따라 개발자가 해결 가능한 오류
 에러(Error) : JVM 자체의 오류로 개발자가 해결할 수 없는 오류

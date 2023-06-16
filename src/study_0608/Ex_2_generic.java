@@ -1,10 +1,6 @@
 package study_0608;
 
 
-public class Ex_2_generic {
-
-}
-
 /*
  * 
  컬렉션(바구니)은 객체를 저장하므로, 기본 데이터 타입은 사용할 수 없고, 대신에 래퍼 클래스(Integer, Double, Character 등)를 사용해야 합니다.

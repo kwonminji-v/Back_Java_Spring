@@ -23,7 +23,8 @@ public class Ex_2_HorseTest_스레드 {
 //      t7.start();
 //      t8.start();
 //      t9.start();
-      
+     
+	   
       Thread[] t = new Thread[9];   // 객체 배열 생성
       
       for(int i = 0; i < t.length; i++) {      // 배열의 길이만큼 반복

@@ -19,7 +19,7 @@ public class Ex_13_ArrayList_유틸 {
 		 ArrayList의 장점은 저장 순서 대로 데이터가 출력 된다는 점이다.
 		 그래서 가장 많이 쓰이는 편이다.
 		 */
-		
+		 
 			al.add("강아지");
 			al.add("고양이");
 			al.add("햄스터");

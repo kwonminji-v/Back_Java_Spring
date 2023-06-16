@@ -10,6 +10,7 @@ try/catch 문으로 예외 처리하지 않은 경우
 public class Ex_11_try_catch {
 
 	public void call() throws Exception {
+		
 		try {
 			System.out.println(" 메서드 시작 ");
 			int [] num = new int[2];

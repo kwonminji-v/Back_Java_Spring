@@ -29,6 +29,7 @@ public class EX_9_genericExam {
 		MyFunction6<Integer> f2 = (x) -> System.out.println(x.toString());
 		f2.print(Integer.valueOf(100));
 	}
+	
 } //제네릭은 타입인가 ? 
 /*
  제네릭은 자바에서 데이터 타입을 파라미터와(Parameterize) 할 수 있는 방법을 제공하는 프로그래밍 기법입니다.

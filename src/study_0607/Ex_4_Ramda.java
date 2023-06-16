@@ -18,5 +18,5 @@ public abstract class Ex_4_Ramda implements Ex_3_ramda {
 		Ex_3_ramda increment = x -> x + 1;
 		System.out.println(increment.calc(2));   // 출력 : 3
 	}
-
+	
 }

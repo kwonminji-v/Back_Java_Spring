@@ -12,7 +12,7 @@ finally문 -- 예외 발생 유무와 상관없이 실행하는 부분
 
 
 public class Ex_8_catch {
-
+	
 	public static void main(String[] args) {
 		try {
 			int [] num = new int[2];

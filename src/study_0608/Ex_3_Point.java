@@ -19,7 +19,7 @@ public class Ex_3_Point {
       Point4 a = new Point4(2, 3);
       Point4 b = new Point4(2, 3);
       Point4 c = a;
-
+      
       if (a == b) {
          System.out.println("a == b");
       }

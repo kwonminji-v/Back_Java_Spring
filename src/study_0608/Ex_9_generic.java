@@ -25,7 +25,6 @@ package study_0608;
 		    }
 
 		}
-
 		
 		public class  Ex_9_generic {
 		    public static void main(String[] args){
