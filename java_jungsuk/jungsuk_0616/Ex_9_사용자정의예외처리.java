@@ -25,7 +25,7 @@ class Score {
 	//checkScore의 메서드는 만약에 입력된 점수 값이 음수와 100이상이면 예외를 발생 그 외의 값이면 정상적인 값이라고 출력해주는 메서드입니다.
 	void checkScore(int score) throws MinusException, OverException  {
 		if (score < 0 ) {
-			throw new MinusException("예외 발생 : 점수가 음수값이 입력되었습니다.");
+			throw new MinusException("예외 발생 : 점수가 음수값이 입력되었습니다."); //예외를 발생시켜라!
 			//위 문장만 적으면 에러가 발생하며 빨간 줄이 그어지는데,  예외가 throw로 인해 반드시 발생할텐데
 			//Exception은 일반예외이기 때문에 반드시 예외처리를 해줄 의무가 생기기 때문에 
 			//try-catch를 직접 작성해주거나 throws MinusException을 상단에 작성해주어야 합니다.

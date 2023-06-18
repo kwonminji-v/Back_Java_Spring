@@ -20,5 +20,4 @@ public class Ex_8_ExceptionMethod_1 {
 			System.out.println(e.getMessage());
 		}
 	}
-
 }
