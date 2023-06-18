@@ -8,10 +8,12 @@ public class Ex_9_2_Thraded_extends  extends Thread{
 	public void run() {
 		
 		String [] strArray = new String[] {"하나", "둘" , "셋", "넷", "다섯"};
+		
 		try {
-			Thread.sleep(100); //자막이 약간 늦게 출력되게 하기 위해 Thread.sleep을 추가
+			Thread.sleep(100); 
+			//자막이 약간 늦게 출력되게 하기 위해 Thread.sleep을 추가
+			//자막이 출력되기 전 잠시 대기 상태가 될 수 있음
 		} catch (InterruptedException e) {
-			
 		}
 		
 		for(int i = 0; i < strArray.length; i++) {
