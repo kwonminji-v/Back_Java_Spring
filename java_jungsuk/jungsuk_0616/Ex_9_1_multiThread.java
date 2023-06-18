@@ -1,6 +1,7 @@
 package jungsuk_0616;
 
 
+//싱글 스레드는 두가지 작업을 동시 실행할 수 없고, 하나의 작업이 전부 종료되면 다음 작업이 실행됩니다.
 public class Ex_9_1_multiThread {
 
 	public static void main(String[] args) {
