@@ -10,7 +10,7 @@ class MyData {
 		synchronized (this) {
 	//자신의 데이터를 가지고와서 그 데이터에 1을 더한 후 그 값을 data에 저장한다.
 		int mydata = data;      // -> 1. 값 읽기 : 3 / /데이터를 바로 가져와 2초 뒤 결과값을 저장
-		try { Thread.sleep(2000);} //-> 2초 기다리기
+		try { Thread.sleep(5000);} //-> 2초 기다리기
 		catch (InterruptedException e) { }
 		data = mydata + 1; //-> 1 더해주기 4!
 		}
@@ -49,6 +49,7 @@ public class Ex4_동기화_synchronized {
 			plusThread1.start();
 			// start()가 실행되면 plusThread의  run() 이 실행되며, run() 에서 plusData()가 호출됩니다.
 			//해당 Thread가 실행되면 값 읽기가 시작되고 2초의 대기 상태를 갖게 됩니다.
+			
 			//이 후 아래의 try-catch문으로 1초 뒤에 바로 두번째 Thread가 start 하게 됩니다.
 				try { Thread.sleep(1000); } catch (InterruptedException e) {  }
 				
