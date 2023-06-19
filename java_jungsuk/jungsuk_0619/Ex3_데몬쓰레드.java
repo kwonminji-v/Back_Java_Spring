@@ -27,7 +27,6 @@ public class Ex3_데몬쓰레드 {
 		thread1.start();
 		
 		
-		
 		//#2. 데몬(Daemon) 쓰레드
 		Thread thread2 = new MyThread1();
 		thread2.setDaemon(true);
@@ -37,13 +36,13 @@ public class Ex3_데몬쓰레드 {
 		//데몬 쓰레드는 "main쓰레드를 포함해서 모든 일반 쓰레드가 종료해야 종료됨"
 		
 		
-		
 		//#3. 3초 후 MainThread 종료하게 코드를 작성하였습니다. 
 		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {  }
+			Thread.sleep(3100);
+		} catch (InterruptedException e) {  } //3초가 지나면 바로 메인 스레드 종료
 		System.out.println("Main thread 종료");
-		//for문에 의해 아직 3,4,5초의 thread 실행이 남아있지만, main thread가 종료되며 함께 종료되었습니다.
+		//for문에 의해 아직 MyThread1으로 생성된 객체의 3,4,5초의 thread 실행이 남아있지만, 
+		//main thread가 종료되며 함께 종료되었습니다.
 	}
 
 }

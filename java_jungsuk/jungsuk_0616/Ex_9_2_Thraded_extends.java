@@ -18,6 +18,7 @@ public class Ex_9_2_Thraded_extends  extends Thread{
 		
 		for(int i = 0; i < strArray.length; i++) {
 			System.out.println( " ( 자막은 ) "  + " "+   strArray[i]);
+			
 			try {
 				Thread.sleep(200);
 			} catch (InterruptedException e) {
