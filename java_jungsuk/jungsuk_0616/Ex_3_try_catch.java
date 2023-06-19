@@ -20,9 +20,9 @@ public class Ex_3_try_catch {
 			  	  3/0 예외는 ArithmethicException이 발생하며, 객체가 생성됩니다. 그리고 catch 블록이 실행됩니다.*/
 			 System.out.println("프로그램 종료");
 			 
-		} catch (ArithmeticException e) {
+		} catch (Exception e) {
 				System.out.println("숫자는 0으로 나눌 수 없습니다. ");
-				System.out.println("프로그램 종료");
+				System.out.println(e);
 				//System.exit(); 를 작성하면 finally문은 실행하지 않고 catch블록만 실행 후 종료된다.
 		}
 		 finally {
