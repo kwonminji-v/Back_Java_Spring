@@ -22,7 +22,7 @@ public class Ex_3_try_catch {
 			 
 		} catch (Exception e) {
 				System.out.println("숫자는 0으로 나눌 수 없습니다. ");
-				System.out.println(e);
+				System.out.println("프로그램 종료");
 				//System.exit(); 를 작성하면 finally문은 실행하지 않고 catch블록만 실행 후 종료된다.
 		}
 		 finally {
