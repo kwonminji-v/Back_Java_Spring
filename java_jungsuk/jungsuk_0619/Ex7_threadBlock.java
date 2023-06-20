@@ -23,7 +23,8 @@ public class Ex7_threadBlock {
 		};
 	};
 
-	void startAll() { // 3개의 Thread 모두 시작
+	void startAll() { 
+		//위에 작성된  3개의 필드인 Thread가 모두  동시 시작
 		t1.start();
 		t2.start();
 		t3.start();
@@ -31,8 +32,10 @@ public class Ex7_threadBlock {
 
 	class MyClass {
 		synchronized void syncMethod() {
-			System.out.println(" [ " + Thread.currentThread().getName() + "]");
+			try {Thread.sleep(2000); } catch (InterruptedException e) { } //쓰레드 시작 준비시간
+			System.out.println(" ===== " + Thread.currentThread().getName() + "=====");
 			//각각의 thread들의 state값들을 호출하는 코드를 작성
+			//start()를 하고 바로 getState()를 호출하면 
 			System.out.println("thread1 -> " + t1.getState());
 			System.out.println("thread2 -> " + t2.getState());
 			System.out.println("thread3 -> " + t3.getState());
@@ -42,7 +45,8 @@ public class Ex7_threadBlock {
 	}
 
 	public static void main(String[] args) {
-			Ex7_threadBlock mbt = new Ex7_threadBlock(); //이 때는 thread의 갯수가 main 1개
+		//이 때는 thread의 갯수가 main 1개
+			Ex7_threadBlock mbt = new Ex7_threadBlock(); 
 			mbt.startAll();  //이 때는 3개의 thread가 모두 실행되며 thread의 갯수가 4개가 된다.
 	}
 

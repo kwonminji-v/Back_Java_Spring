@@ -20,7 +20,7 @@ public class TicTacToeCore {
 	}
 	
 	public void setCurrentPlayerNum(int currentPlayerNum) {
-		this.currentPlayerNum = currentPlayerNum;
+		this.currentPlayerNum = currentPlayerNum; 
 	}
 	
 	public int[][] getEndStage() {
@@ -35,6 +35,7 @@ public class TicTacToeCore {
 		// playerNum의 값을 문자열 p에 저장
 		boolean result = false;	// boolean 타입 변수 선언 및 false로 초기화
 		String[] arr = { rowFrag, colFrag, diagFrag1, diagFrag2 };
+		
 		// 인자 값들을 arr 배열에 대입
 		for(int i = 0; i < arr.length; i++) {
 			result = !arr[i].contains("0") && arr[i].equals(p + p + p);
@@ -51,6 +52,7 @@ public class TicTacToeCore {
 			// 매개변수로 쓰인 2차원 배열 currentStage의 row길이만큼 반복
 			String rowStr = "";	String colStr = "";
 			String diagStr1 = "";	String diagStr2 = "";
+			
 			// 각종 String 변수 초기화
 			for(int j = 0; j < currentStage[i].length; j++) {
 				// currentStage의 column 길이만큼 반복
@@ -65,17 +67,20 @@ public class TicTacToeCore {
 				// 오른쪽 위에서 왼쪽 아래로 그어지는 대각선
 			}
 			if(isThisPlayerWin(2, rowStr, colStr, diagStr1, diagStr2)) {
+				
 				// 해당 매개변수로 메소드 호출하여 받은 return 값이 true면 if문 실행
 				isGameOver = true;
 				endStage = currentStage;
 				return 2; // 2 리턴, 플레이어 2 승리
 			}
 			else if(isThisPlayerWin(1, rowStr, colStr, diagStr1, diagStr2)) {
+				
 				isGameOver = true;
 				endStage = currentStage;
 				return 1;	// 1 리턴, 플레이어 1 승리
 			}
-			else if(currentTurn == 9) { return 99; }	// 현재 턴이 9턴이면 무승부
+			else if(currentTurn == 9) { return 99; }	
+			// 현재 턴이 9턴이면 무승부
 			else { continue; }	// 모두 아닐경우 계속
 		}
 		currentTurn++;	// currentTurn을 1 증가시키고
