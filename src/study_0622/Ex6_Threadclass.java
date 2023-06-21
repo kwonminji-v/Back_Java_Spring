@@ -37,7 +37,7 @@ public class Ex6_Threadclass {
 	PrintWriter pw;
 	//생성자로 전달받은 클라이언트와 연결된 소켓을 멤버로 초기화 하고
 	//해당 클라이언트와 연결된 출력 스트림을 생성하여 공유 list 에 저장
-	public Ex6_(Socket client) throws IOException {
+	public void Ex6_(Socket client) throws IOException {
 		this.client = client;
 		pw = new PrintWriter(client.getOutputStream());
 		List.add(pw);
