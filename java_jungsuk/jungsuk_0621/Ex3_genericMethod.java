@@ -10,9 +10,6 @@ class A {
 		System.out.println(t.equals("안녕하세요"));
 	}
 }
-/*
-
-*/
 
 
 
