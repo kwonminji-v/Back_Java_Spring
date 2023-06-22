@@ -39,6 +39,8 @@ public class Exm11_1_TranslationServer {
                     }
                     if (input.equals("java") == true)
                         out.println("java -> 자바");
+                    if (input.equals("banana") == true)
+                    	out.println("banana -> 바나나");
                     else
                         out.println("조금 쉬운 단어를 보내주세요");
                 }

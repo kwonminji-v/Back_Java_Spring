@@ -3,7 +3,7 @@ package study_0622;
 import java.io.*;
 import java.net.Socket;
 
-public class Ch_2106ImpleClient {
+public class Ex8_1_ImpleClient {
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
             System.out.println("사용법 java SimpleClient [server_name]");
