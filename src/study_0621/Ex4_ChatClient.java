@@ -1,4 +1,4 @@
-package study_0622;
+package study_0621;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Scanner;
 
-public class Ex7_ChatClient {
+public class Ex4_ChatClient {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("서버 IP");
@@ -33,4 +33,3 @@ public class Ex7_ChatClient {
         }
     }
 }
-//192.168.0.97

@@ -1,4 +1,4 @@
-package study_0622;
+package study_0621;
 //UDP 형식 채팅 프로그램 A
 
 //UDP(user Datagram Protoocol)는 

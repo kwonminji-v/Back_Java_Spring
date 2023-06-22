@@ -1,6 +1,8 @@
 package jungsuk_0621;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
 public class Ex7_ArrayListMehtod {
@@ -52,7 +54,38 @@ public class Ex7_ArrayListMehtod {
 			aList3.clear();
 			System.out.println(aList3); //출력 : [8, 6]
 			
+			//#9. isEmpty() ; -> list가 비어있는지 여부를 확인합니다.
+			System.out.println(aList3.isEmpty());
 			
+			//#10. size() -> 데이터의 수량을 의미한다.
+			System.out.println(aList3.size());
+			aList3.add(1);
+			aList3.add(2);
+			aList3.add(3);
+			System.out.println(aList3.size()); 
+			
+			//#11.get(int index); -> index 로만 출력할 수 있습니다.
+			System.out.println("0번째" + aList3.get(0));
+			System.out.println("1번째" + aList3.get(1));
+			System.out.println("2번째" + aList3.get(2));
+			for (int i = 0; i < aList3.size(); i++) {
+				System.out.println(i + "번째" + aList3.get(i));
+			}
+			
+			//#12. toArray();  ->  List --> Array로 변경을 해주는 것
+			Object[] object = aList3.toArray();
+			// toArray()는 Object로만 저장이 되기 때문에, 담을 땐 Object 배열 타입으로 선언해야 함
+			System.out.println(Arrays.toString(object));
+			//배열 출력 시 Arrays에 있는 toString(object) 객체를 작성하여 진행
+			
+			//#13.일일이 다운캐스팅해서 변환해주야 하는 게 필요한 불편함이 있어
+			// toArray(T[] t) --> 이걸 사용하여 원하는 타입의 배열 출력이 가능합니다.
+			Integer[] integer1 = aList3.toArray(new Integer[0]);
+			System.out.println(Arrays.toString(integer1));
+			
+			//13-2. 
+			Integer[] integer2 = aList3.toArray(new Integer[5]);
+			System.out.println(Arrays.toString(integer2));
 	}
 
 }
