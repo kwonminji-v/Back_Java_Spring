@@ -1,4 +1,4 @@
-package study_0623;
+package study_0622;
 
 /*API(AppLication Programming Interface)는 애플리케이션 소프트웨어를 구축하고
 통합하기 위한 정의 및 프로토콜세트로 애플리케이션 프로그래밍 인터페이스를 나타낸다.

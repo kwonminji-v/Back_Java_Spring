@@ -1,4 +1,4 @@
-package study_0622;
+package study_0621;
 //UDP 형식 채팅 프로그램 A
 //UDP(user Datagram Protoocol)는
 //데이터를 몇 개의 고정 길이의 패킷(다이어그램이라고 불린다>)으로 분할하여 전송

@@ -1,4 +1,4 @@
-package study_0623;
+package study_0622;
 
 import java.awt.Graphics;
 import java.awt.Image;

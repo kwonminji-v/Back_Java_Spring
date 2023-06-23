@@ -1,4 +1,4 @@
-package study_0622;
+package study_0621;
 
 import java.io.*;
 import java.net.Socket;
