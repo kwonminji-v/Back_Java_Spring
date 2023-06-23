@@ -37,7 +37,7 @@ public class SwingJDBC extends JFrame{
 	
 	private String[][] data = new String[50][8];
 	private String[] colName = {"empno     ","ename     ","job       ","mgr       ","hiredate  ","sal       ","comm      ","deptno    "};
-	//띄어쓰기로 10칸으로 통일시켜준다 출력설계 맞추주기위해
+	//띄어쓰기로 10칸으로 통일시켜준다 출력설계 맞춰 주기위해
 	
 	private String[] str={"","","","","","","",""};	
 	

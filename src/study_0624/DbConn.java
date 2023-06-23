@@ -22,6 +22,7 @@ public class DbConn {
         }
         return dbConn;
     }
+    
     public static Connection getConnection(String url, String user, String pwd) {
         if (dbConn != null) {
             try {
@@ -33,6 +34,7 @@ public class DbConn {
         }
         return dbConn;
     }
+    
     public static void dbClose() {
         if (dbConn != null) {
             try {
@@ -44,6 +46,7 @@ public class DbConn {
         }
         dbConn = null;
     }
+    
     public static void dbClose(PreparedStatement ps, Connection conn) {
         try {
             if (conn != null)
@@ -56,6 +59,7 @@ public class DbConn {
         conn = null;
         ps = null;
     }
+    
     public static void dbClose(Statement st, Connection conn) {
         try {
             if (st != null)
@@ -68,6 +72,7 @@ public class DbConn {
         conn = null;
         st = null;
     }
+    
     public static void dbClose(ResultSet rs, Statement st, Connection conn) {
         try {
             if (st != null)
@@ -83,6 +88,7 @@ public class DbConn {
         st = null;
         rs = null;
     }
+    
     public static void dbClose(ResultSet rs, PreparedStatement ps, Connection conn) {
         try {
             if (rs != null)
