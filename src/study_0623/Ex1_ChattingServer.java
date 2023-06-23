@@ -19,7 +19,7 @@ import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
 public class Ex1_ChattingServer extends JFrame {
-	//각 클라이언트들의 접속 스레드를 답는 리스트
+	//각 클라이언트들의 접속 스레드를 담는 리스트
 	private ArrayList<MultiServerThread> list;
 	private Socket socket;
 	private JTextArea ta;
