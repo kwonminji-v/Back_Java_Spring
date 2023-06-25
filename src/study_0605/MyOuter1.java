@@ -6,8 +6,10 @@ package study_0605;
  */
 
 public class MyOuter1 {
+	
 		private static String name;
 		private int age;
+		
 		public MyOuter1 ( String name, int age) {
 			this.name = name;
 			this.age = age;
@@ -16,6 +18,7 @@ public class MyOuter1 {
 		public String getName() {
 			return name;
 		}
+		
 		static class Inner {
 			private String address;   // 자신만의 인스턴스 값을 가질 수 있다.
 		//	static String tel = "010-1234-4918";  // 공유, 클래스 멤버 동작한다.

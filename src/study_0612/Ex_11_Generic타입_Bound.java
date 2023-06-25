@@ -1,6 +1,7 @@
 package study_0612;
 
 import model.Study_0612_Ex_11_Bag;
+
 /* 제네릭(Generic) 타입 범위 제한(Bound)의 종류
  	#1. 제네릭 클래스의 타입 제한
  	#2. 제네릭 메서드의 타입 제한

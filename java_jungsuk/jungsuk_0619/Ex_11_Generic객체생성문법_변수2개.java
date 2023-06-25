@@ -36,8 +36,6 @@ public class Ex_11_Generic객체생성문법_변수2개 {
 		int value1 = kv1.getValue();
 
 		System.out.println("key1값 = " + key1 + "  " + "value1값 = " + value1);
-
-		
 		
 		
 		KeyValue<Integer, String> kv2 = new KeyValue<>();

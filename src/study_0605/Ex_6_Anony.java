@@ -1,6 +1,9 @@
 package study_0605;
 
 
+
+
+
 public interface Ex_6_Anony {
 	public void print();
 }
@@ -13,7 +16,7 @@ public interface Ex_6_Anony {
 class Named Class implements Anony {
 			public void print () {
 			System.out.println("안녕하세요, 이 클래스는 이름이 있는 클래스이다.");
-			}
 		}
+}
 
  */

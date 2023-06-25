@@ -13,6 +13,9 @@ class Parent {
 	public void sayHello( ) {
 		System.out.println("Hello from Parent");
 	}
+	public void sayGoodbyd() {
+		System.out.println("업캐스팅 실험");
+	}
 }
 
 class Child extends Parent {
@@ -30,6 +33,7 @@ public class Ex_8_DownCasting {
 	public static void main(String[] args) {
 		Parent p = new Child();   //업캐스팅
 		p.sayHello();  // 출력 : "Hello from Child"
+		p.sayGoodbyd();
 		
 		if(p instanceof Child) {
 			Child c = (Child) p;    //다운 캐스팅

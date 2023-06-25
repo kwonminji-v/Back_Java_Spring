@@ -21,12 +21,15 @@ class Animal {
 			System.out.println("Dog is wagging its tail");
 		}
 	}
+	
 //부모클래스를 선언하고 자식클래스를 생성하여 부모는 자식을 사용할 수 있다.
 	
 	public class Ex_7_Upcasting {
 			public static void main(String[] args) {
+				
 				Dog myAnimal = new Dog();   // Upcasting
 				myAnimal.makeSound();  // Outputs "Dog is barking"
+				
 				// myAnimal.wagTail()'  // Error!
 			}//업캐스팅은 특히 다형성을 활용할 때 주로 사용한다.
 	}

@@ -18,6 +18,7 @@ class Pencil{
 
 class Goods<T> {
 	private T t;
+	
 	public T get() {
 		return t;
 	}
