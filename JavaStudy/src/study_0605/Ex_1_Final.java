@@ -78,6 +78,8 @@ class SamsungPhone implements PhoneInterface {
 	@Override
 	public void SendCall() {
 		System.out.println("따르릉");
+		
+		
 	}
 	@Override
 	public void receiveCall() {
@@ -109,7 +111,6 @@ public class Ex_1_Final {
 익명 이너클래스를 사용하면 컴파일러가 내부적으로 클래스를 생성한 후 메서드 오버라이드를 수행 
 (클래스 이름은 알 수 없고 1회용이다.)
 미완성 메서드로 완성하여 해당객체를 생성할 수 있다.
-
  */
 
 
