@@ -1,4 +1,6 @@
 package study_0608;
+
+
 /*  
 다중 catch문의 특징
 - 자바 명령문이 많아지면 발생할 수 있는 Exception의 종류도 많아진다.
@@ -14,6 +16,7 @@ finally문 -- 예외 발생 유무와 상관없이 실행하는 부분
 public class Ex_8_catch {
 	
 	public static void main(String[] args) {
+		
 		try {
 			int [] num = new int[2];
 			num[0] = 1;

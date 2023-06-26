@@ -17,6 +17,7 @@ public class Ex_6_anonyClass {
 			System.out.println("Hello");
 		};
 		f.print();
+		
 		//한 번 구현된 메소드를 재 사용 할 수도 있다.
 		f = () -> {
 			System.out.println("안녕");

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 
 public class Ex_14_ArrayList_인덱스추가삭제 {
+	
 	public static void main(String[] args) {
 		
 	
@@ -15,6 +16,7 @@ public class Ex_14_ArrayList_인덱스추가삭제 {
 		list.add("강아지");
 		list.add("고양이");
 		list.add("호랑이");
+		list.add( "푸바오");
 		
 // ArrayList의 해당 인덱스에 해당 값 추가 ( 나머지 뒤로 밀림)
 		list.add(1, "독수리");
@@ -23,8 +25,10 @@ public class Ex_14_ArrayList_인덱스추가삭제 {
 		list.set(2, "기러기");
 // ArrayList에 해당 인덱스의 값 삭제
 		list.remove(3);
-		for(int i = 0; i < list.size(); i++)
-			System.out.println(list.get(i));
+		
+		for(String str : list) {
+			System.out.println(str);
+		}
 
 	}
 }

@@ -11,6 +11,7 @@ package study_0608;
 		        this.first = first;
 		        this.second = second;
 		    }
+		    
 		    public T getFirst(){
 		        return first;
 		    }
@@ -28,7 +29,9 @@ package study_0608;
 		
 		public class  Ex_9_generic {
 		    public static void main(String[] args){
-		        SimplePair<String> pair = new SimplePair<>("apple", "tomato");
+		    	
+		        SimplePair<String> pair = new SimplePair<String>("apple", "tomato");
+		        
 		        System.out.println(pair.getFirst());
 		        System.out.println(pair.getSecond());
 		    }

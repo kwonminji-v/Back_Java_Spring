@@ -1,6 +1,6 @@
 package study_0608;
 
-import java.lang.reflect.Method;
+//import java.lang.reflect.Method;
 
 
 public class Ex_7_GenericMethods {
@@ -10,6 +10,7 @@ public class Ex_7_GenericMethods {
 		public <T> T Method(T t) {
 			return t;
 		}
+		
 		public <T> boolean method(T t1, T t2) {
 			return t1.equals(t2);
 		}
@@ -17,7 +18,6 @@ public class Ex_7_GenericMethods {
 			System.out.println(k + ":" + v);
 		}
 	}
-	
 	
 	public static void main(String[] args) {
 		

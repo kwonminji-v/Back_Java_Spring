@@ -5,6 +5,7 @@ import java.util.ArrayList;
 //컬렉션 : 자바의 자료구조를 구현한 클래스
 //배열과 유사한 다양한 배열 타입을 제공
 //Vector, HashMap, HashSet, Stack, Enumeration, ArrayList 등
+
 public class Ex_13_ArrayList_유틸 {
 
 	public static void main(String[] args) {
@@ -33,6 +34,7 @@ public class Ex_13_ArrayList_유틸 {
 			for (int i = 0; i < al.size(); i++) {
 				System.out.println(al.get(i));
 				System.out.println("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ");
+				
 				for (String str : al)
 					System.out.println(str);
 			} //배열 : .length 속성을 사용하여 길이를 얻음 . 길이는 고정되어 있다

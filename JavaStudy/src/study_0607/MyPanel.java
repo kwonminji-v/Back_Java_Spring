@@ -23,7 +23,7 @@ public class MyPanel extends JPanel implements ActionListener {
     //Font f로 font 객체 f를 생성하고 , 글씨체와 글씨 크기를 설정해주었다.
     public MyPanel() {
         setLayout(new GridLayout(3, 3, 5, 5));
-        Font f = new Font("Dialog", Font.ITALIC, 50);
+        Font f = new Font("Dialog", Font.BOLD, 50);
 
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {

@@ -21,6 +21,7 @@ public class Ex_1_ArrayList {
 			
 		//size() : ArrayList에 저장된 데이터의 개수를 반환하는 메소드
 			System.out.println("Count : " + al.size());
+			
 		//ArrayList에 저장된 요소 출력
 			print(al);
 			System.out.println("-------------------");

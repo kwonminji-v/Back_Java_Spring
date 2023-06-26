@@ -5,7 +5,7 @@ package study_0608;
 throws 처리 방식
 예외 발생 시 발생한 예외를 메서드를 호출한 곳으로 전달하여 예외 처리를 한다.
 - 최초 메서드를 호출한 main() 메서드에서는 try/catch문으로 예외 처리를 해야한다.
-- RuntimeException 계열은 throws 할 필요가 업사. 
+- RuntimeException 계열은 throws 할 필요가 없다.
  */
 public class Ex_10_throws처리 {
 

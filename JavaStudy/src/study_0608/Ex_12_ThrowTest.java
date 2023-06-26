@@ -3,6 +3,7 @@ package study_0608;
 public class Ex_12_ThrowTest {
 
 	public static void main(String[] args) {
+		
 			Ex_11_try_catch t = new Ex_11_try_catch();
 			
 			try {
@@ -15,6 +16,7 @@ public class Ex_12_ThrowTest {
 	}
 
 } 
+
 /*
 예외(Exception) : 연산 오류, 포맷 오류 등 상황에 따라 개발자가 해결 가능한 오류
 에러(Error) : JVM 자체의 오류로 개발자가 해결할 수 없는 오류

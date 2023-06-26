@@ -1,5 +1,6 @@
 package study_0607;
 
+
 interface Repairable {
 	
 } // 유닛이 갖는 공통 성질을 가진 최상위 클래스
@@ -7,7 +8,7 @@ interface Repairable {
 class Unit {
 	int hitPoint;
 	final int MAX_UP;
-	/*Repairable*/ String u;
+	/*Reparable*/ String u;
 	
 	Unit(int hp) {
 		MAX_UP = hp;

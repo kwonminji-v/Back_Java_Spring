@@ -17,7 +17,7 @@ String url = "jdbc:oracle:thin:@localhost:1521:xe";
 //접속 성공, 실패 여부 사용 시 쓰는 변수
 Boolean connect = false;
 
-//db 접속 코드는 반드시 try-catch 문 안에 써줘야 하마
+//db 접속 코드는 반드시 try-catch 문 안에 써줘야 함
 try {
 	//오라클 드라이버 접속
 	Class.forName(driver);

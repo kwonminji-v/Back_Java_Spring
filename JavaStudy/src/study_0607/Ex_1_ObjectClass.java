@@ -40,7 +40,7 @@ public class Ex_1_ObjectClass {
 	public static void main(String[] args) {
 		//point 클래스에 좌표를 입력하면서, 객체 호출, 안하면 아랫줄 동작 불가
 		Point p = new Point(2, 3);
-		//static 메소드이므로 객체 생성 없이 바로 사용 간으, static 메소드는 이탤릭체로 바뀐다.
+		//static 메소드이므로 객체 생성 없이 바로 사용 가능, static 메소드는 이탤릭체로 바뀐다.
 		print(p);  //static 메소드임을 시각적으로 구별하기위해
 	}
 
