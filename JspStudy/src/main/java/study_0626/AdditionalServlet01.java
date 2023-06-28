@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-//@WebServlet("/AdditionalServlet01")
+@WebServlet("/AdditionalServlet01")
 /**
  @WebServlet : 해당 코드의 닉네임의 역할을 합니다.
  코드 파일명이 아닌 닉네임을 써서 코드에 대한 보안성을 높이고 페이지 명을 간단하게 표현할 수 있습니다.
