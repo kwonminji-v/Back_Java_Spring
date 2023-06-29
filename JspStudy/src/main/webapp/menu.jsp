@@ -12,7 +12,7 @@
 	<div class="container">
 		<div class="navbar-header">
 				<!-- 사이트 메인 -->
-				<a class="navbar-brand" href="./welcome01.jsp">Home</a>
+				<a class="navbar-brand" href="./welcome.jsp">Home</a>
 				<a class="navbar-brand" href="./about.jsp">About</a>
 		</div>
 	</div>

@@ -14,7 +14,14 @@ INSERT 쿼리      SELECT 쿼리를 실행   UPDATE 쿼리를 실행   DELETE �
 public class ProductRepository {
 	// 통합 저장소 컬렉션 리스트
 	private ArrayList<Product> listOfProducts = new ArrayList<Product>();
-
+	//ProductRepository 클래스의 기본 생성자에 대한 객체 매개변수인 instance를 생성
+	private static ProductRepository instance = new ProductRepository();
+	
+	//생성된 객체변수인 instance에 대한 Getter() 메서드 작성 
+	public static ProductRepository getInstance() {
+				return instance;
+	}
+	
 	// 생성자
 	public ProductRepository() {
 		// phone 제품 객체 생성하여 각 데이터들을 저장합니다.
@@ -24,6 +31,7 @@ public class ProductRepository {
 		phone.setManufacturer("Apple");
 		phone.setUnitsInStock(1000); // 재고 수량
 		phone.setCondition("New"); // 신상
+		phone.setFilename("P1234.png");
 
 		// 노트북 제품 객체 생성하여 각 데이터 저장
 		Product notebook = new Product("P1235", "LG PC 그램", 1500000);
@@ -32,6 +40,7 @@ public class ProductRepository {
 		notebook.setManufacturer("LG");
 		notebook.setUnitsInStock(1000);
 		notebook.setCondition("Refurbished"); // 재생품
+		phone.setFilename("P1235.png");
 
 		// 태블릿 제품 객체 생성하여 각 데이터 저장
 		Product tablet = new Product("P1236", "Galaxy Tab S", 900000);
@@ -40,6 +49,7 @@ public class ProductRepository {
 		tablet.setManufacturer("Samsum");
 		tablet.setUnitsInStock(1000);
 		tablet.setCondition("Old"); // 중고품
+		phone.setFilename("P1236.png");
 		
 		
 		//생성한 각 객체를 통합 저장소 컬렉션 리스트에 저장
@@ -53,7 +63,6 @@ public class ProductRepository {
 		return listOfProducts;
 	}
 
-	//2022-03-08 추가됨
 	//상품 상세 정보를 가져오는 메소드를 추가
 	public Product getProductById(String productId) {
 		Product productById = null;  //반환 값 넣을 변수 생성 및 초기화
@@ -72,4 +81,10 @@ public class ProductRepository {
 		//저장한 데이터를 반환합니다. 
 		return productById;
 	}
+	
+	//객체 변수 listOfProducts에 새로운 상품 정보를 등록하는 addProduct() 메소드 생성
+	public void addProduct(Product product) {
+		listOfProducts.add(product);
+	}
+	
 }

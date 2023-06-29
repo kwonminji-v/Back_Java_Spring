@@ -11,8 +11,9 @@ public class Product implements Serializable{
 		this.pname = pname;
 		this.unitPrice = unitPrice;
 	}
-
+	
    private static final long serialVersinUID = -4274700572038677000L;
+   
    private String productId; // 상품아이디
    private String pname; // 상품명
    private Integer unitPrice; // 상품가격
@@ -21,6 +22,7 @@ public class Product implements Serializable{
    private String category; // 분류, 목록표(리스트)
    private long unitsInStock; // 재고 수
    private String condition; // 신상품 or 중고품 or 재생품
+   private String filename; //이미지 파일명
    
 //   DTO는 Data Transfer Object의 약자로, 데이터 전송을 위한 객체를 말합니다
 //   주로 데이터베이스와의 데이터 교환을 담당하는 객체로 사용되며,
@@ -111,6 +113,14 @@ public class Product implements Serializable{
    public static long getSerialversinuid() {
       return serialVersinUID;
    }
+
+public String getFilename() {
+	return filename;
+}
+
+public void setFilename(String filename) {
+	this.filename = filename;
+}
    
 //   getter & setter 메서드 생성
 //   자동으로 생성하면 된다
