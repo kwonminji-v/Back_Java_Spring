@@ -18,6 +18,8 @@
 	%>
 	
 	<script>
+	<!-- validateForm() 메서드는 자바스크립트로 작성한 유효성 검사 메서드로, 
+				아이디와 패스워드 중 빈 값이 있다면 경고창을 띄워줍니다.  -->
 	function validateForm(form) {
 		if(!form.user_id.value){
 			alert("아이디를 입력하세요.");

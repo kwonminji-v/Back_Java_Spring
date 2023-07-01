@@ -11,6 +11,8 @@
  long lastTime = session.getLastAccessedTime();	// 마지막 요청 시간
  String lastTimeStr = dateFormat.format(new Date(lastTime));
  %>
+ <!-- 세션 : 클라이언트가 웹 브라우저를 통해 서버에 접속한 후 실행을 처리하고 웹 브라우저를 닫아
+ 						서버와의 접속을 종료하는 하나의 단위를 의미합니다. / 세션은 클라이언트가 서버에 접속해 있는동안 그 상태를 유지하는 것이 목적  -->
 <!DOCTYPE html>
 <html>
 <head>
