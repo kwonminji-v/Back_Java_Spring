@@ -37,13 +37,3 @@ if(memberDTO.getId() != null) {
 // .forward(request, response) : 이는 반환된 RequestDispatcher 객체의 메서드로,
 // 현재의 request와 response 객체를 "LoginForm.jsp"로 전달(forward)한다.
 %>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
-</html>

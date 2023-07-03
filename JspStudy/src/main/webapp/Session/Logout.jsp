@@ -12,13 +12,3 @@ session.invalidate();
 // 속성 삭제 후 페이지 이동
 response.sendRedirect("LoginForm.jsp");
 %>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
-</html>

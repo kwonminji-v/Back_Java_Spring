@@ -10,6 +10,7 @@
 		<% } else { %>
 			<a href="../Session/Logout.jsp">로그아웃</a>
 		<% } %>
+		
 		<!-- 8장과 9장의 회원제 게시판 프로젝트에서 사용할 링크 -->
 		&nbsp;&nbsp;&nbsp;
 		<a href="../Board/List.jsp">게시판(페이징x)</a>
@@ -18,13 +19,3 @@
 		</td>
 	</tr>
 </table>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-
-</body>
-</html>
