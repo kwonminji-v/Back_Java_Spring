@@ -7,7 +7,7 @@ public class MemberDTO {
 	private String name;
 	private String regidate;
 	
-	
+	//멤버 변수별 게터와 세터
 	public String getId() {
 		return id;
 	}

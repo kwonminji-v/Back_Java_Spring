@@ -24,7 +24,7 @@ function deletePost() {
 			var form = document.writeFrm;    //이름(name)이 "writeFrm"인 폼을 선택
 			form.method  = "post";							//전송 방식
 			form.action = "DeleteProcess.jsp";  //전송 경로
-			form.submit();												//폼값 전송
+			form.submit();												//form에 입력된 값 전송
 		}
 }
 </script>

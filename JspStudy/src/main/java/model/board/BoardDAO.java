@@ -36,8 +36,7 @@ public class BoardDAO extends JDBConnect {
       return totalCount;
    }
 
-   
-   
+
    
    // 검색 조건에 맞는 게시물 목록을 반환합니다.
    public List<BoardDTO> selectList(Map<String, Object> map) {
