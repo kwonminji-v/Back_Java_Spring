@@ -25,13 +25,20 @@ public class BookServiceImpl implements BookService{
 	      return booksByCategory;  
 	 }  
 	 
+	 //필터를 적용하여 도서 목록을 가져오는 메서드
 	 public Set<Book> getBookListByFilter(Map<String, List<String>> filter) {
 	      Set<Book> booksByFilter = bookRepository.getBookListByFilter(filter); 
 	      return booksByFilter;
 	 }
-	 
+	 //특정 도서 ID에 해당하는 도서를 가져오는 메서드
 	 public Book getBookById(String bookId) {
 	        Book bookById = bookRepository.getBookById(bookId);
 	        return bookById;
 	 }
+	 
+	 //신규 도서 정보를 저장소 객체에 저장하는 메서드
+	 public void setNewBook(Book book) {  
+	        bookRepository.setNewBook(book);  
+	 }  
+	 
 }
