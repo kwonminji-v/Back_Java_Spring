@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BookController.java&apos; to &apos;chap05/src/main/java/com.springmvc.controller&apos;&#x0D;&#x0A;- Original project: &apos;BookMarket&apos;&#x0D;&#x0A;- Destination element: &apos;chap05/src/main/java/com.springmvc.controller&apos;&#x0D;&#x0A;- Original element: &apos;com.springmvc.controller.BookController.java&apos;" description="Copy compilation unit" destination="=chap05/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springmvc.controller" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.springmvc.controller{BookController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1689039311508" units="1" version="1.0"/>
+</session>

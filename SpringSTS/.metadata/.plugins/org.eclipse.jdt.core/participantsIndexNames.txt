@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+C:\Users\minzi\Desktop\SpringSTS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3472531694.index
+\chap05\src\main\java
+C:\Users\minzi\Desktop\SpringSTS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3903509000.index
+\chap03\src\main\java
+C:\Users\minzi\Desktop\SpringSTS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2496713819.index
+\chap07\src\main\java
+C:\Users\minzi\Desktop\SpringSTS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3855855286.index
+\BookMarket\src\main\java
+C:\Users\minzi\Desktop\SpringSTS\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3543494988.index
+\chap07\src\main\java

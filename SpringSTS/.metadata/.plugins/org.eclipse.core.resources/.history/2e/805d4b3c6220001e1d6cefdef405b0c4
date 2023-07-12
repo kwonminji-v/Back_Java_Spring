@@ -1,0 +1,29 @@
+package com.springmvc.chap07;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+
+@Controller
+public class Example04Controller {
+
+	
+		@GetMapping("/exam04")
+		public String showForm(Model model) {
+			model.addAttribute("member", new Member());
+			return "webpage07_01";
+		}
+		
+		
+		@PostMapping("/exam04")
+		public String submit(@ModelAttribute Member member, Model model) {
+			model.addAttribute("member", member);
+			return "webpage07_02";
+		}
+		
+		@ModelAttribute
+		public void setsubTitle(Model model) {
+			model.addAttribute("subtitle", "메서드에 @ModelAttribute 어노테이션 적용하기");
+		}
+}
