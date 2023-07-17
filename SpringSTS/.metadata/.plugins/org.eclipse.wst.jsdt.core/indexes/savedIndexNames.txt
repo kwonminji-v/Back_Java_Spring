@@ -1,9 +1,8 @@
 INDEX VERSION 1.4+C:\Users\minzi\Desktop\study_hard\backend\Back_Java_Spring\SpringSTS\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-4004214287.index
-684661718.index
-3968470788.index
-2134296083.index
-499185570.index
-1627362442.index
-3855855286.index
 1561259185.index
+1627362442.index
+4004214287.index
+499185570.index
+3968470788.index
+684661718.index
+2134296083.index
